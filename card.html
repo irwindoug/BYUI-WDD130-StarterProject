@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <style>
+      img {
+        max-width: 100%;
+      }
+      button {
+        background-color: white;
+        border: 1px solid #888;
+        padding: .5em;
+        color: #888;
+        float: left;
+      }
+      
+      p {
+        margin: 1em;
+      }
+      
+      footer {
+        display: flex;
+        align-items: baseline;
+        padding: 0 1em 1em 1em;
+      }
+      span {
+        color: #888;
+        font-size: 12px;
+        margin-left: auto;
+      }
+      
+      .card {
+        width: 320px;
+        box-shadow: 1px 1px 4px 1px #888;
+        border-radius: 3px;
+        background-color: white;
+        font-family: Helvetica, sans-serif;
+        overflow: hidden;
+      }
+
+      .viewButton {
+        border-radius: 3px 0 0 3px;
+      }
+      .editButton {
+        border-radius: 0 3px 3px 0;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <article class="card">
+      <img src="https://picsum.photos/320/240" />
+      <p>
+        This is a wider card with supporting text below as a natural lead-in to
+        additional content. This content is a little bit longer.
+      </p>
+      <footer>
+        <button class="viewButton">View</button>
+        <button class="editButton">Edit</button>
+        <span>9 mins</span>
+      </footer>
+    </article>
+  </body>
+</html>
