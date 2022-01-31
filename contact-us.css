@@ -6,17 +6,45 @@
 }
 
 .contact-us-header{
-  background-color: rgba(154, 212, 214, 0.6);
+  background-color: var(--accent1-color);
   text-align: center;
     grid-column: 1/-1;
+}
+
+.contact-form > h2{
+  text-align: center;
 }
 
 h3 {
   color: black;
 }
 
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul, p {
+  margin-block-end: .5em;
+}
+
+input, textarea {
+  width: 95%;
+}
+
+#send-button {
+  width: auto;
+  padding: .5em;
+  background-color: var(--accent1-color);
+  color: var(--accent2-color);
+  margin: 0 auto;
+  border-color: var(--accent2-color);
+  display: block;
+}
+
 .business-info {
   grid-column: 1/3;
+  text-align: center;
 }
 
 .contact-break {
