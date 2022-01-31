@@ -29,8 +29,8 @@ main h1, main h2 {
   background-color: var(--accent1-color);
   padding: .5em 1em;
   margin-bottom: 0;
-  /* border-top: 5px double; */
-  /* border-bottom: 5px double; */
+  border-top: 5px double;
+  border-bottom: 5px double;
 }
 
 p {
@@ -85,7 +85,6 @@ footer {
 }
 
 /* Classes */
-
 .logo-box img {
   background-color: white;
   border-radius: 5px;
@@ -175,9 +174,9 @@ footer {
 }
 
 .home-right-img,.home-left-img{
-  /* border: 1px solid #ccc; */
+  border: 1px solid #ccc;
   padding: 10px;
-  /* box-shadow: 5px 5px 5px #999; */
+  box-shadow: 5px 5px 5px #999;
 } 
 
 .social {
@@ -187,13 +186,12 @@ footer {
   padding: 0 .25em;
 }
 /* IDs */
- #content {
+#content {
   max-width: 960px;
   margin: 0 auto;
 }
 
 /* Media Response */
-
 @media screen and (max-width: 550px){
   .home-grid, nav ul, .banner-box {
     display: block;
